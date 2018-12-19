@@ -1,37 +1,72 @@
 body {
   display: grid;
+  font-family: 'B612', sans-serif;
   grid-template-columns: 1fr 2fr 2fr;
   grid-template-rows: 1fr 2fr 4fr;
   grid-area: 
-  "sidebar header header"
+  "sidebar search search"
   "sidebar graph graph"
   "sidebar table table"
 }
 
 /*SEARCH BAR & HEADER*/
+header {
+  grid-column: 2 / span 3;
+}
+
 .search-nav-icon {
+  grid-area: search;
+  justify-content: space-around;
+}
+
+#search-nav-bar {
+  display: flex;
+  display: inline-flex;
   grid-area: header;
-  /*border: 1px #eaeaea;*/
+  grid-column: 2 / span 3;
+  justify-content: space-around;
+  list-style-type: none; 
+}
+
+#header-search-bar {
+  height: 50px;
+  grid-area: header;
+  width: 80%;
+}
+
+#horizontal__nav {
+  display: flex;
+  list-style-type: none;  
+  justify-content: space-around;
 }
 
 /*SIDEBAR*/
 
+.sidebar {
+  background-color: #3E0F26;
+  color: #FFB99C;
+  font-size: 12px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
 #profile-pic {
-  background-image: url(images/cap-profile.jpg);
   border-radius: 50%;
-  grid area: sidebar;
+  grid-area: sidebar;
+  /*height: 150px;*/
   width: 150px;
 }
 
 .vertical__nav {
   grid-area: sidebar;
-  text-transform: uppercase;
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 .v-nav-icon {
-  margin: 10px;
+  margin: 10px auto;
 }
+
 .section-edit {
   border-radius: 25px;
 }
