@@ -45,6 +45,7 @@ header {
 .sidebar {
   background-color: #3E0F26;
   color: #FFB99C;
+  grid-row: 1 / span 3;
   font-size: 12px;
   padding: 10px;
   text-transform: capitalize;
