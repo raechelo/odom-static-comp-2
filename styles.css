@@ -1,0 +1,38 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 2fr 4fr;
+  grid-area: 
+  "sidebar header header"
+  "sidebar graph graph"
+  "sidebar table table"
+}
+
+/*SEARCH BAR & HEADER*/
+.search-nav-icon {
+  grid-area: header;
+  /*border: 1px #eaeaea;*/
+}
+
+/*SIDEBAR*/
+
+#profile-pic {
+  background-image: url(images/cap-profile.jpg);
+  border-radius: 50%;
+  grid area: sidebar;
+  width: 150px;
+}
+
+.vertical__nav {
+  grid-area: sidebar;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.v-nav-icon {
+  margin: 10px;
+}
+.section-edit {
+  border-radius: 25px;
+}
+
