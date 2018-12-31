@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Batman, the Dark Knight</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+    </head>
+  <body>
+    <header>
+      <div class="search-bar-menu">
+        <span class="fas fa-caret-left"></span><span class="fas fa-bars"></span>
+        <span class="fas fa-search"></span><input type="text" id="header-search-bar" placeholder="search gotham city index">
+        <span class="fas fa-user-plus search-nav-icon"></span>
+        <span class="fas fa-calendar-day search-nav-icon"></span>
+        <span class="fas fa-th search-nav-icon"></span>
+    </div>
+       <section class="section-edit-icons"><button class="edit-btn-sctn" id="open-btn"><i class="fas fa-circle"></i>OPEN</button><button class="edit-btn-sctn"><span class="far fa-bookmark"></span></button><button class="edit-btn-sctn"><span class="fas fa-edit"></span></button><button class="edit-btn-sctn"><span class="far fa-trash-alt"></span></button>
+        </section>
+      <h1 class="header-name">Batman</h1>
+        <h3 class="header-location"><span class="fas fa-map-marker-alt"></span>Gothman City · <span>preview this post</span></h3>
+      <nav id="horizontal__nav">
+        <li>summary</li>
+        <li>crimes stopped</li>
+        <li>villains arrested</li>
+        <li>lives saved</li>
+        <li>gotham p.d.</li>
+        <li>broadcast</li>
+        <li>notifications</li>
+      </nav>
+    </header>
+    <aside class="sidebar">
+      <div class="profile-pic"><img src="batman.jpg" id="profile-pic" alt="batman">
+        <h2 class="profile-text">the caped crusader<span class="fas fa-angle-down"></span></h2>
+      </div>
+      <hr>
+      <h3 class="nav-bar__header">main</h3>
+        <nav class="vertical__nav">
+          <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-home v-nav-icon"></span>home</h4></li>
+          <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-briefcase v-nav-icon"></span>missions</h4></li>
+          <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-file-alt v-nav-icon"></span>sidekicks</h4></li>
+          <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-clipboard-list v-nav-icon"></span>tasks</h4></li>
+          <li class="nav-li"><h4 class="nav-bar-link"><span class="far fa-calendar-alt v-nav-icon"></span>calendar</h4></li>
+        </nav>
+      <hr>
+      <h3 class="nav-bar__header">watchlist</h3>
+      <nav class="vertical__nav">
+        <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-mask v-nav-icon"></span>joker</h4></li>
+        <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-skull v-nav-icon"></span>bane</h4></li>
+        <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-crow v-nav-icon"></span>scarecrow</h4></li>
+        <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-snowflake v-nav-icon"></span>R'as Al Ghul</h4></li>
+        <li class="nav-li"><h4 class="nav-bar-link"><span class="fas fa-cat v-nav-icon"></span>catwoman</h4></li>
+      </nav>
+      <hr>
+      <h3 class="nav-bar__header">wayne enterprises</h3>
+      <nav class="vertical__nav" id="vertical-nav-chkbx">
+        <li><input class="chkbx" id="admin-chkbox" type="checkbox" value="admin-checkbox"><label for="admin-chkbox">administrative</label></li>
+        <li><input class="chkbx" id="exec-chkbox" type="checkbox" value="exec-checkbox"><label for="exec-chkbox">executive</label></li>
+        <li><input class="chkbx" id="ds-chkbox" type="checkbox" value="design-checkbox"><label for="ds-chkbox">design</label></li>
+        <li><input class="chkbx" id="hr-chkbox" type="checkbox" value="human-resources-checkbox"><label for="hr-chkbox">human resources</label></li>
+        </nav>
+      </nav>
+    </aside>
+    <section class="info-container">
+      <section class="info">
+        <article class="graph-section">
+          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+            <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
+            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="75 25" stroke-dashoffset="25"></circle>
+            <g class="graph-text">
+            <text x="40%" y="65%" class="donut label">saved</text>
+            <text x="30%" y="55%" class="donut label">lives</text>
+            <text x="25%" y="45%" class="donut num">42</text>
+          </g>
+          </svg>
+          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+            <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
+            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="80 20" stroke-dashoffset="25"></circle>
+            <g class="graph-text">
+            <text x="40%" y="65%" class="donut label">stopped</text>
+            <text x="30%" y="55%" class="donut label">crimes</text>
+            <text x="25%" y="45%" class="donut num">37</text>
+          </g>
+          </svg>
+          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+            <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
+            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="90 10" stroke-dashoffset="25"></circle>
+            <g class="graph-text">
+            <text x="35%" y="65%" class="donut label">answered</text>
+            <text x="25%" y="55%" class="donut label">batcalls</text>
+            <text x="20%" y="45%" class="donut num">40</text>
+          </g>
+          </svg>
+            <svg viewBox="0 0 140 125" id="svg-chart"class="chart">
+              <polyline 
+                  fill="none"
+                  stroke="#eecf56"
+                  stroke-width="5"
+                  points="
+                    -270,290
+                    20,60
+                    40,80
+                    60,20
+                    80,30
+                    95,4
+                    100,45
+                    100,50
+                    105,30
+                    110,70
+                    130,50
+                    150,20
+                    50"/>
+                    <text x="15" y="95%" class="graph-villain">villains apprehended 2018</text>
+                    <text x="-32" y="65%" class="graph-label">50</text>
+                    <text x="-32" y="45%" class="graph-label">100</text>
+                    <text x="-32" y="25%" class="graph-label">150</text>
+                    <text x="-32" y="6%" class="graph-label">200</text>
+            </svg>
+        </article>
+        <div class="info-dividing-line"><hr class="graph-divider"><button class="info-expand"><span class="fas fa-caret-up"></span></button><hr class="graph-divider">
+        </div>
+        <table class="table">
+          <th colspan="2" id="table-header"><h5 class="table-title">Job Description<span class="table-title-edit"><i class="fas fa-pencil-alt"></i>EDIT</span></h5></th>
+          <tr></tr>
+            <th class="table-row-header">Position Title</th>
+              <td class="table-row-desc">The Dark Knight</td>
+          <tr></tr>
+            <th class="table-row-header">Location</th>
+              <td class="table-row-desc">Gotham City</td>
+          <tr></tr>
+            <th class="table-row-header">Employment Type</th>
+              <td class="table-row-desc">Life-time</td>
+          <tr></tr>
+            <th class="table-row-header">Experience</th>
+              <td class="table-row-desc">Proficient</td>
+          <tr></tr>
+            <th class="table-row-header">Description</th>
+              <td class="table-row-desc description">A hero can be anyone. Even a man knowing something as simple and reassuring as putting a coat around a young boy shoulders to let him know the world hadn't ended. <br/><br/> Batman! na na na na na na na na na na na na na na na na na na na na na Batman! na na na na na na Batman! na na na na na na Batman!</td>
+          <tr class="ref-row"></tr>
+            <th class="table-row-header">Personal Referenes</th>
+              <td class="table-row-desc ref"><div class="ref-pic"> <image></image></div>Jim Gordon</td>
+          <tr></tr>
+            <th class="table-row-header">Serving Since</th>
+              <td class="table-row-desc">1939</td>
+        </table>
+        <section class="social">
+          <button class="social-btn" id="btn-fb"><i class="fab fa-facebook-square"></i>Post to Facebook</button>
+          <button class="social-btn" id="btn-twt"><i class="fab fa-twitter-square"></i>Tweet this Job</button>
+          <button class="social-btn" id="btn-linkedin"><i class="fab fa-linkedin"></i>Post to Linkedin</button>
+          <h4 class="social-heading"><i class="fas fa-globe-americas social-pane-icon"></i>Link to the Batman</h4>
+              <p class="social-p">Now, our operation is small but there is a lot of potential for aggressive expansion. So which of you fine gentlemen would like to join our team?</p>
+              <span class="social-link-input">
+              <input type="text" name="contact">
+              <button class="copy-btn">COPY</button>
+            </span>
+            <hr class="social-divider">
+          <h4 class="social-heading"><i class="far fa-window-restore social-pane-icon"></i>Use the Batman Widget</h4>
+              <p class="social-p">Know how I got these scars? My father was... a drinker, and a fiend. And one night...</p>
+              <span class="social-link-input">
+              <input type="text" name="contact">
+              <button class="copy-btn">COPY</button>
+            </span>
+            <hr class="social-divider">
+          <h4 class="social-heading"><i class="far fa-paper-plane social-pane-icon"></i>Contact the Batman</h4>
+              <p class="social-p">I believe whatever doesn't kill you simply makes you... stranger.</p>
+            <span class="social-link-input">
+              <input type="text" name="contact">
+               <button class="copy-btn">COPY</button>
+            </span>
+      </section>
+    </section>
+  </section>
+  </body>
+</html>
