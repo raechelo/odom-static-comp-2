@@ -16,7 +16,7 @@ body {
 }
 
 .info {
-  grid-template-rows:.75fr 2fr;
+  grid-template-rows: 30% 70%;
   grid-template-columns: 5.5fr 2.5fr;
   display: grid;
   background-color: rgba(119, 136, 153, 0.2);
@@ -347,8 +347,7 @@ header {
   display: flex;
   justify-content: space-around;
   grid-area: graph;
-  height: 300px;
-  margin-top: -20px;
+  padding: 30px 0;
 }
 
 .chart {
@@ -358,6 +357,10 @@ header {
   margin: auto;
   border-bottom: 1px dotted black;
   border-left: 1px dotted black;
+}
+
+.bar-graph {
+  width: 350px;
 }
 
 polyline:hover {
@@ -375,22 +378,38 @@ svg text {
   text-align: center;
 }
 
-.graph-villain {
-  font-size: 9px;
+.bar-graph text {
+  font-size: 10px;
+  z-index: 1;
 }
 
-.graph-label {
-  font-size: 8px;
+.bar {
+  fill: #eecf56;
 }
 
-.graph-label:hover,
-.graph-villain:hover {
-  font-size: 12px;
+.bar:hover {
+  fill: #4a454f;
+}
+
+.axis {
+  font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; 
+}
+
+.circle-graph {
+  height: 200px;
+  width: 55%;
 }
 
 .donut {
-  width: 20%;
-  height: 125%;
+  width: 32%;
+  height: 100%;
 }
 
 .donut-text {
@@ -426,7 +445,7 @@ circle:hover {
 .info-dividing-line {
   grid-area: graph;
   display: flex;
-  margin: 250px 0 40px 0;
+  margin: 250px 0 30px 0;
 }
 
 
@@ -581,6 +600,7 @@ button i {
 
 .social-link-input {
   display: inline-flex;
+  position: relative;
 }
 
 .copy-btn {
@@ -603,6 +623,11 @@ button i {
   width: 100%;
   padding: 10px;
   font-size: 18px;
+}
+
+.social-text-box {
+  position: fixed;
+
 }
 
 .copy-text {
@@ -629,6 +654,10 @@ button i {
 
 .social-pane-icon {
   margin-right: 5px;
+}
+
+@media 1300px {
+  
 }
 
 /*COLOR SCHEME:
