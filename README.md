@@ -16,7 +16,7 @@ Preview of some hover effects:
 
 # Things I Learned
 
-I learned how to code and create SVGs from scratch, how to style them, and how to size them. I learned how to use grid and flexbox together to create an effective full webpage layout. I started to dabble a little bit into animations and I had some fun with those, I wish I had time to put animations on the bar graph too. I also learned how to style lists in a variety of ways, how to implement a boatload of icons, and I think I vastly enhanced my hovering techniques.
+I learned how to code and create SVGs from scratch, how to style them, and how to size them. I learned how to use grid and flexbox together to create an effective full webpage layout. I started to dabble a little bit into animations and I had some fun with those; I wish I had time to put animations on the bar graph too. I also learned how to style lists in a variety of ways, how to implement a boatload of icons, and I think I vastly enhanced my hovering techniques. I also learned more about how colors work together-- I started this page off as a Captain America job listing but changed to Batman solely because of the color palette. It's much easier to work with neutrals and one pop color than two bright, primary tones next to each other.
 
 # Remaining Areas for Improvement
 
