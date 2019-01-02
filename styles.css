@@ -430,6 +430,19 @@ circle:hover {
   stroke: #4A545F;
 }
 
+.line-segment {
+  stroke-linecap: round;
+}
+
+.line-segment:hover {
+  animation: circle-chart-fill 2S reverse; 
+  transform-origin: center;
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
 .graph-divider {
   width: 40%;
   display: inline;
@@ -656,7 +669,7 @@ button i {
   margin-right: 5px;
 }
 
-@media 1300px {
+@media {
   
 }
 
