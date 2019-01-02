@@ -5,7 +5,7 @@ The comp given:
 
 [![better-quality-SC3.png](https://i.postimg.cc/W3QVwknv/better-quality-SC3.png)](https://postimg.cc/WF6x2tCW)
 
-# Things I Learned:
+# Things I Learned
 
 I learned how to code and create SVGs from scratch, how to style them, and how to size them. I learned how to use grid and flexbox together to create an effective full webpage layout. I also learned how to style lists in a variety of ways, how to implement a boatload of icons, and I think I vastly enhanced my hovering techniques.
 
