@@ -29,3 +29,19 @@ I tried for a while to create pop-up labels on hover for the graphs, and I think
 # Final Thoughts
 
 I'm very happy with where I ended for this project. It was very intense and took a lot of work; just when I thought I was done, I still put in a whole day's worth of work. I went a little crazy with hover effects and put them on all the icons in the search bar at the top, the buttons to the left below that, the list items in the sidebar, the SVGs and their information, and the table edit button. I am really happy with my graphs that I created, it was a long night and a lot of codepens before I understood what to do and how to do it, but it was so worth it.
+
+# Mobile Layouts
+
+iPad
+
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/L4JmwcMq/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/t7H0VmJy)
+
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/SKQhr5rx/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/87Y9kZ92)
+
+Pixel 2:
+
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/MTv8kQgk/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/WFLygh2S)
+
+iPhone 5:
+
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/wTKYP3VP/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/SjGPYSH7)
