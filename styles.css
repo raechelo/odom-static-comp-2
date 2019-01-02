@@ -223,6 +223,7 @@ header {
 
 .v-nav-icon {
   margin: 15px 15px 15px 16px;
+  width: 30px;
 }
 
 .nav-bar__header {
@@ -317,6 +318,7 @@ header {
 }
 
 .edit-btn-sctn {
+  background-color: white;
   border-radius: 50%;
   border: 1px solid #EECF56;
   color: #1E2732;
@@ -650,7 +652,6 @@ button i {
 
 .social-text-box {
   position: fixed;
-
 }
 
 .copy-text {
@@ -678,8 +679,108 @@ button i {
   margin-right: 5px;
 }
 
-@media {
+/*MEDIA QUERIES*/
+
+@media (max-width: 1024px) {
+  body {
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: 
+    "search"
+    "info";
+  }
+
+  .info {
+    grid-column: 1 / span 2;
+  }
+
+  aside {
+    display: none;
+  }
+
+}
+
+@media (max-width: 750px) {
   
+  .info {
+    display: block;
+  }
+
+  .horizontal__nav li {
+    font-size: .6rem;
+  }
+
+  .graph-section {
+    display: block;
+    padding: 0px;
+  }
+
+  .circle-graph {
+    width: 100%;
+  }
+
+  .circle-graph,
+  .bar-graph {
+    margin: auto;
+  }
+
+  .bar-graph {
+    margin-top: 40px;
+  }
+
+  .info-dividing-line {
+    margin: 10px;
+  }
+
+  .table {
+    margin: auto;
+    width: 95%;
+  }
+
+  .social {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 30px;
+  }
+
+  .button {
+    margin: 10px 0;
+  }
+
+  @media (max-width: 670px) {
+    
+    #horizontal__nav {
+      display: none;
+    }
+  }
+
+  @media (max-width: 450px) {
+    
+    .donut {
+      display: block;
+    }
+
+    .circle-graph svg {
+      width: 100%;
+    }
+
+    .graph-section {
+      height: 880px;
+    }
+
+    .bar-graph {
+      position: relative;
+      top: 410px;
+    }
+
+    .search-bar-menu span {
+      display: none;
+    }
+
+    .section-edit-icons {
+      visibility: hidden;
+    }
+  }
 }
 
 /*COLOR SCHEME:
