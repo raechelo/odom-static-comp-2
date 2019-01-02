@@ -631,7 +631,7 @@ button {
   margin: 0 1.5% 3% 0;
 }
 
-button i {
+button span {
   float: left;
   margin: 4px 0 0 4px;
 }
