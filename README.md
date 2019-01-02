@@ -10,6 +10,7 @@ My Recreation:
 [![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/g0smRVm7/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/nsXyfQsK)
 
 Preview of some hover effects:
+
 [![Screen-Shot-2019-01-01-at-11-17-34-PM.png](https://i.postimg.cc/J4QLS3Bz/Screen-Shot-2019-01-01-at-11-17-34-PM.png)](https://postimg.cc/Vd5pCCRx)
 
 # Things I Learned
