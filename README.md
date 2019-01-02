@@ -7,7 +7,7 @@ The comp given:
 
 My Recreation:
 
-[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/g0smRVm7/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/nsXyfQsK)
+[![screencapture-raechelo-github-io-odom-static-comp-2-2019-01-01-2.png](https://i.postimg.cc/JnmCzKgg/screencapture-raechelo-github-io-odom-static-comp-2-2019-01-01-2.png)](https://postimg.cc/WD9H9ms6)
 
 Preview of some hover effects:
 
