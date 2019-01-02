@@ -7,7 +7,7 @@ The comp given:
 
 My Recreation:
 
-[![my-static-comp-2.png](https://i.postimg.cc/qMDKcKMz/my-static-comp-2.png)](https://postimg.cc/VdM5mdt8)
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/g0smRVm7/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/nsXyfQsK)
 
 # Things I Learned
 
