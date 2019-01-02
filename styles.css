@@ -170,6 +170,7 @@ header {
 }
 
 #horizontal__nav li {
+  border-bottom: 2px solid transparent;
   font-size: .9rem;
   text-transform: uppercase;
 }
