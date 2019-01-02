@@ -84,15 +84,17 @@ header {
 
 .search-nav-icon {
   border-left: 1px solid #EECF56;
-  font-size: 20px;
+  font-size: 26px;
   padding: 15px 25px;
 }
 
 .fa-search {
+  border-left: 1px solid #eecf56;
   color: #666;
   font-size: 25px;
   grid-area: search;
   left: 30px;
+  padding-left: 5px;
   padding-top: 15px;
   position: relative;
   z-index: 1;
@@ -139,11 +141,11 @@ header {
 }
 
 .header-name {
-  margin: -45px 20px 20px 20px;
+  margin: -45px 20px 0px 20px;
 }
 
 .header-location {
- margin: 10px 0px 10px 25px; 
+ margin: 0px 0px 10px 25px; 
 }
 
 .fa-map-marker-alt {
@@ -268,16 +270,9 @@ header {
   position: absolute;
 }
 
-.chkbx:not(:checked) + label,
-.chkbx:checked + label {
-  cursor: pointer;
-  padding-left: 2.95em;
-  position: relative;
-}
-
-.chkbx:not(:checked) + label:before,
-.chkbx:checked + label:before {
-  background: #1E2732;
+.admin-chkbx:not(:checked) + label:before,
+.admin-chkbx:checked + label:before {
+  background: royalblue;
   border-radius: 4px;
   content: '';
   height: 1.25em;
@@ -287,9 +282,52 @@ header {
   width: 1.25em;
 }
 
+.exec-chkbx:not(:checked) + label:before,
+.exec-chkbx:checked + label:before {
+  background: hotpink;
+  border-radius: 4px;
+  content: '';
+  height: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1.25em;
+}
+
+.ds-chkbx:not(:checked) + label:before,
+.ds-chkbx:checked + label:before {
+  background: tomato;
+  border-radius: 4px;
+  content: '';
+  height: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1.25em;
+}
+
+.hr-chkbx:not(:checked) + label:before,
+.hr-chkbx:checked + label:before {
+  background: mediumpurple;
+  border-radius: 4px;
+  content: '';
+  height: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1.25em;
+}
+
+.chkbx:not(:checked) + label,
+.chkbx:checked + label {
+  cursor: pointer;
+  padding-left: 2.95em;
+  position: relative;
+}
+
 .chkbx:not(:checked) +label:after,
 .chkbx:checked +label:after {
-  color: #EECF56;
+  color: #4a545f;
   content: "\2714";
   font-size: 1em;
   line-height: 0.8;
@@ -306,6 +344,7 @@ header {
   opacity: 1;
   transform: scale(1);
 }
+
 
 /*BODY/INFO SECTION*/
 
