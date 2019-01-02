@@ -7,8 +7,8 @@ body {
   "sidebar search search"
   "sidebar info info"
   "sidebar info info";
-  text-transform: capitalize;
   height: 1vh;
+  text-transform: capitalize;
 }
 
 .info-container {
@@ -16,22 +16,22 @@ body {
 }
 
 .info {
-  grid-template-rows: 30% 70%;
-  grid-template-columns: 5.5fr 2.5fr;
-  display: grid;
   background-color: rgba(119, 136, 153, 0.2);
-  padding: 5px 20px;
+  display: grid;
+  grid-template-columns: 5.5fr 2.5fr;
+  grid-template-rows: 30% 70%;
   grid-template-areas: 
   "graph graph"
   "table social";
+  padding: 5px 20px;
 }
 
 /*SEARCH BAR & HEADER*/
 header {
+  border-bottom: 1px solid #4A545F;
   grid-column: 2 / span 3;
   padding-bottom: 5px;
   position: relative;
-  border-bottom: 1px solid #4A545F;
 }
 
 .search-bar-menu {
@@ -40,10 +40,7 @@ header {
 
 .search-bar-menu {
   display: inline-flex;
-/*  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 10fr 1fr 1fr 1fr;
-  grid-template-areas: "menu search user cal search-icon"
-*/width: 100%;
+  width: 100%;
 }
 
 .fa-user-plus {
@@ -86,20 +83,19 @@ header {
 }
 
 .search-nav-icon {
-  padding: 15px 25px;
-  font-size: 20px;
   border-left: 1px solid #EECF56;
+  font-size: 20px;
+  padding: 15px 25px;
 }
 
 .fa-search {
   color: #666;
   font-size: 25px;
+  grid-area: search;
+  left: 30px;
   padding-top: 15px;
   position: relative;
   z-index: 1;
-  grid-area: search;
-  left: 30px;
-
 }
 
 #search-nav-bar {
@@ -115,9 +111,9 @@ header {
 }
 
 .search-icon-list {
+  border-right: 1px solid #eaeaea;
   margin: 3px 10px;
   padding-bottom: 20px;
-  border-right: 1px solid #eaeaea;
 }
 
 .section-edit-icons {
@@ -127,19 +123,19 @@ header {
 }
 
 .section--edit {
-  border: 1px solid #4A545F;
   border-radius: 50%;
-  margin: 0 10px;
+  border: 1px solid #4A545F;
   height: 30px;
+  margin: 0 10px;
   width: 30px;
 }
 
 #header-search-bar {
+  border: none;
   grid-area: search;
   height: 50px;
   padding: 0 35px;
   width: 70%;
-  border: none;
 }
 
 .header-name {
@@ -153,23 +149,33 @@ header {
 .fa-map-marker-alt {
   padding: 5px;
 }
+
+.preview-link {
+  color:#4a545f;
+  text-decoration: none;
+}
+
+.preview-link:hover {
+  color: #eecf56;
+}
+
+/*HORIZONTAL NAV BAR*/
+
 #horizontal__nav {
   display: flex;
   justify-content: space-around;
   list-style-type: none;  
 }
 
-/*HORIZONTAL NAV BAR*/
+#horizontal__nav li {
+  font-size: .9rem;
+  text-transform: uppercase;
+}
 
 #horizontal__nav li:hover {
   border-bottom: 2px solid #EECF56;
-  margin-bottom: -1px;
   font-weight: 700;
-}
-
-#horizontal__nav li {
-  text-transform: uppercase;
-  font-size: .9rem;
+  margin-bottom: -1px;
 }
 
 /*SIDEBAR*/
@@ -177,8 +183,8 @@ header {
 .sidebar {
   background-color: #4A545F;
   color: #F3EEDD;
-  grid-row: 1 / span 3;
   font-size: 12px;
+  grid-row: 1 / span 3;
   padding: 10px;
 }
 
@@ -203,12 +209,12 @@ header {
 }
 
 .vertical__nav {
+  display: flex;
+  flex-direction: column;
   grid-area: sidebar;
   list-style-type: none;
   margin: -10px;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
 }
 
 .section-edit {
@@ -234,11 +240,10 @@ header {
 }
 
 .nav-li:hover {
-  color: #EECF56;
-  cursor: pointer;
   background: #1E2732;
   border-left: 2px solid #EECF56;
-  /*margin-left: -10px;*/
+  color: #EECF56;
+  cursor: pointer;
   padding: -15px;
 }
 
@@ -258,37 +263,37 @@ header {
   display: inline;
   grid-area: icon;
   margin: 10px 10px;
-  position: absolute;
   opacity: 0;
+  position: absolute;
 }
 
 .chkbx:not(:checked) + label,
 .chkbx:checked + label {
-  position: relative;
-  padding-left: 2.95em;
   cursor: pointer;
+  padding-left: 2.95em;
+  position: relative;
 }
 
 .chkbx:not(:checked) + label:before,
 .chkbx:checked + label:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.25em;
-  height: 1.25em;
   background: #1E2732;
   border-radius: 4px;
+  content: '';
+  height: 1.25em;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1.25em;
 }
 
 .chkbx:not(:checked) +label:after,
 .chkbx:checked +label:after {
+  color: #EECF56;
   content: "\2714";
   font-size: 1em;
+  line-height: 0.8;
   position: absolute;
   top:.25em; left: .22em;
-  color: #EECF56;
-  line-height: 0.8;
 }
 
 .chkbx:not(:checked) +label:after {
@@ -314,22 +319,22 @@ header {
 .edit-btn-sctn {
   border-radius: 50%;
   border: 1px solid #EECF56;
-  width: 30px;
-  height: 30px;
   color: #1E2732;
   font-size: 16px;
+  height: 30px;
   padding: 2px;
+  width: 30px;
 }
 
 #open-btn {
-  width: 75px;
   border-radius: 25px;
+  width: 75px;
 }
 
 .fa-circle {
+  color: limegreen;
   font-size: 10px;
   margin: 2px 3px;
-  color: limegreen;
   text-shadow: 0 0 3px limegreen;
 
 }
@@ -346,18 +351,18 @@ header {
 
 .graph-section {
   display: flex;
-  justify-content: space-around;
   grid-area: graph;
+  justify-content: space-around;
   padding: 30px 0;
 }
 
 .chart {
   background: transparent;
-  width: 28%;
-  height: 65%;
-  margin: auto;
   border-bottom: 1px dotted black;
   border-left: 1px dotted black;
+  height: 65%;
+  margin: auto;
+  width: 28%;
 }
 
 .bar-graph {
@@ -375,8 +380,8 @@ polyline:hover {
 svg text {
   font-size: 5px;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .bar-graph text {
@@ -400,7 +405,6 @@ svg text {
 .axis line {
   fill: none;
   stroke: #000;
-  shape-rendering: crispEdges; 
 }
 
 .circle-graph {
@@ -409,16 +413,15 @@ svg text {
 }
 
 .donut {
-  width: 32%;
   height: 100%;
+  width: 32%;
 }
 
 .donut-text {
-  /*text-align: center;*/
+  font-size: 3px;
+  margin-top: 20px;
   text-anchor: middle;
   text-transform: uppercase;
-  margin-top: 20px;
-  font-size: 3px;
 }
 
 .label:hover,
@@ -466,31 +469,31 @@ circle:hover {
 }
 
 .graph-divider {
-  width: 40%;
+  border-color: #1E2732;
   display: inline;
   grid-area: graph;
-  border-color: #1E2732;
+  width: 40%;
 }
 
 .fa-caret-up {
-  color: #1E2732;
   border-radius: 50%;
+  color: #1E2732;
 }
 
 .info-dividing-line {
-  grid-area: graph;
   display: flex;
+  grid-area: graph;
   margin: 270px 0 30px 0;
 }
 
 
 .info-expand {
+  background-color: #F3EEDD;
   border-radius: 50%;
-  width: 30px;
+  border: 1px solid #1E2732;
   height: 30px;
   margin: 0;
-  border: 1px solid #1E2732;
-  background-color: #F3EEDD;
+  width: 30px;
 }
 
 /*TABLE*/
@@ -508,8 +511,8 @@ circle:hover {
 
 table td {
   border-bottom: 1px solid #1E2732;
-  padding: 5px;
   margin: 0px -1px;
+  padding: 5px;
 }
 
 table tr {
@@ -521,12 +524,11 @@ table tr {
   color: white;
   height: 60px;
   text-align: left;
-  padding: 15px;
 }
 
 .table-title {
-  margin: 20px;
   font-size: 18px;
+  margin: 20px;
 }
 
 .fa-pencil-alt {
@@ -553,28 +555,28 @@ table tr {
 }
 
 .table-row-header {
+  border-bottom: 1px solid #1E2732;
   padding: 10px 20px;
   text-transform: uppercase;
-  border-bottom: 1px solid #1E2732;
 }
 
 .ref-pic {
   background-image: url(com-gordon.jpg);
-  width: 40px;
-  height: 40px;
   background-size: 100%;
   border-radius: 25px;
-  padding: 5px;
   display: inline-block;
+  height: 40px;
   margin-right: 5px;
+  padding: 5px;
+  width: 40px;
 }
 
 /*SOCIAL BUTTONS*/
 
 .social {
-  grid-area: social;
   display: flex;
   flex-direction: column;
+  grid-area: social;
   height: 700px;
   justify-content: space-evenly;
   margin: 0 0 0 3%;
@@ -583,14 +585,13 @@ table tr {
 button {
   color: #fff;
   cursor: pointer;
+  display: block;
   height: 45px;
   margin: 0 1.5% 3% 0;
-  display: block;
 }
 
 button i {
   float: left;
-  margin: auto;
   margin: 4px 0 0 4px;
 }
 
@@ -620,14 +621,6 @@ button i {
   text-transform: none;
 }
 
-./*social-link-input {
-  display: inline-block;
-  background: transparent;
-  line-height: inherit;
-  border-radius: 25px;
-  border: 2px solid #132732;
-}*/
-
 .social-link-input {
   display: inline-flex;
   position: relative;
@@ -650,9 +643,9 @@ button i {
 }
 
 .social-link-input input {
-  width: 100%;
-  padding: 10px;
   font-size: 18px;
+  padding: 10px;
+  width: 100%;
 }
 
 .social-text-box {
@@ -663,10 +656,10 @@ button i {
 .copy-text {
   background: #1E2732;
   color: #eecf56;
-  padding: 8px;
   font-weight: 800;
-  margin: -15px 6px;
   height: 49px;
+  margin: -15px 6px;
+  padding: 8px;
 }
 
 .social-link-input {
@@ -674,12 +667,11 @@ button i {
 }
 
 .social-divider {
-  grid-area: social;
-  z-index: 1;
-  margin: auto 0;
   border-color: #1e2732;
-  /*border-width: 1.5px;*/
   border-style: solid;
+  grid-area: social;
+  margin: auto 0;
+  z-index: 1;
 }
 
 .social-pane-icon {
