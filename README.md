@@ -8,11 +8,11 @@ The comp given:
 
 My Recreation:
 
-[![screencapture-raechelo-github-io-odom-static-comp-2-2019-01-01-2.png](https://i.postimg.cc/JnmCzKgg/screencapture-raechelo-github-io-odom-static-comp-2-2019-01-01-2.png)](https://postimg.cc/WD9H9ms6)
+[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/CxdcCpBN/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/VJQ91TFr)
 
 Preview of some hover effects:
 
-[![Screen-Shot-2019-01-01-at-11-17-34-PM.png](https://i.postimg.cc/J4QLS3Bz/Screen-Shot-2019-01-01-at-11-17-34-PM.png)](https://postimg.cc/Vd5pCCRx)
+[![Screen-Shot-2019-01-02-at-10-09-06-AM.png](https://i.postimg.cc/d3H8DDBK/Screen-Shot-2019-01-02-at-10-09-06-AM.png)](https://postimg.cc/n9msPFgd)
 
 # Things I Learned
 
