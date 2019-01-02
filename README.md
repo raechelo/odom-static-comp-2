@@ -9,6 +9,9 @@ My Recreation:
 
 [![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/g0smRVm7/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/nsXyfQsK)
 
+Preview of some hover effects:
+[![Screen-Shot-2019-01-01-at-11-17-34-PM.png](https://i.postimg.cc/J4QLS3Bz/Screen-Shot-2019-01-01-at-11-17-34-PM.png)](https://postimg.cc/Vd5pCCRx)
+
 # Things I Learned
 
 I learned how to code and create SVGs from scratch, how to style them, and how to size them. I learned how to use grid and flexbox together to create an effective full webpage layout. I also learned how to style lists in a variety of ways, how to implement a boatload of icons, and I think I vastly enhanced my hovering techniques.
