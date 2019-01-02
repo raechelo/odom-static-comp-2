@@ -36,8 +36,6 @@ iPad
 
 [![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/L4JmwcMq/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/t7H0VmJy)
 
-[![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/SKQhr5rx/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/87Y9kZ92)
-
 Pixel 2:
 
 [![screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png](https://i.postimg.cc/MTv8kQgk/screencapture-file-Users-raechelodom-Desktop-mod1-odom-static-co.png)](https://postimg.cc/WFLygh2S)
