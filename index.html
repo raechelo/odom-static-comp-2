@@ -20,7 +20,7 @@
        <section class="section-edit-icons"><button class="edit-btn-sctn" id="open-btn"><i class="fas fa-circle"></i>OPEN</button><button class="edit-btn-sctn"><span class="far fa-bookmark"></span></button><button class="edit-btn-sctn"><span class="fas fa-edit"></span></button><button class="edit-btn-sctn"><span class="far fa-trash-alt"></span></button>
         </section>
       <h1 class="header-name">Batman</h1>
-        <h3 class="header-location"><span class="fas fa-map-marker-alt"></span>Gothman City · <span>preview this post</span></h3>
+        <h3 class="header-location"><span class="fas fa-map-marker-alt"></span>Gothman City · <a href="https://www.readdc.com/Detective-Comics-1937-2011-27/digital-comic/T0039000275001" target="blank" class="preview-link">preview this post</a></h3>
       <nav id="horizontal__nav">
         <li>summary</li>
         <li>crimes stopped</li>
@@ -66,63 +66,117 @@
     <section class="info-container">
       <section class="info">
         <article class="graph-section">
-          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+          <section class="circle-graph">
+          <svg width="100%" height="200" viewBox="0 0 40 40" class="donut">
             <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
-            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
-            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="75 25" stroke-dashoffset="25"></circle>
+            <circle class="donut" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut line-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="75 25" stroke-dashoffset="25"></circle>
             <g class="graph-text">
             <text x="40%" y="65%" class="donut label">saved</text>
             <text x="30%" y="55%" class="donut label">lives</text>
             <text x="25%" y="45%" class="donut num">42</text>
-          </g>
+            </g>
           </svg>
-          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+          <svg width="100%" height="200" viewBox="0 0 40 40" class="donut">
             <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
-            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
-            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="80 20" stroke-dashoffset="25"></circle>
+            <circle class="donut" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut line-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="80 20" stroke-dashoffset="25"></circle>
             <g class="graph-text">
             <text x="40%" y="65%" class="donut label">stopped</text>
             <text x="30%" y="55%" class="donut label">crimes</text>
             <text x="25%" y="45%" class="donut num">37</text>
           </g>
           </svg>
-          <svg width="100%" height="100%" viewBox="0 10 40 40" class="donut">
+          <svg width="24%" height="200" viewBox="0 0 40 40" class="donut">
             <circle class="donut hole" cx="20" cy="20" r="5" fill="transparent"></circle>
-            <circle class="donut hours" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
-            <circle class="donut hour-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="90 10" stroke-dashoffset="25"></circle>
+            <circle class="donut" cx="20" cy="20" r="15" fill="transparent" stroke="#999" stroke-width="3"></circle>
+            <circle class="donut line-segment" cx="20" cy="20" r="15" fill="transparent" stroke-width="3" stroke="#EECF56" stroke-dasharray="90 10" stroke-dashoffset="25"></circle>
             <g class="graph-text">
             <text x="35%" y="65%" class="donut label">answered</text>
             <text x="25%" y="55%" class="donut label">batcalls</text>
             <text x="20%" y="45%" class="donut num">40</text>
           </g>
           </svg>
-            <svg viewBox="0 0 140 125" id="svg-chart"class="chart">
-              <polyline 
-                  fill="none"
-                  stroke="#eecf56"
-                  stroke-width="5"
-                  points="
-                    -270,290
-                    20,60
-                    40,80
-                    60,20
-                    80,30
-                    95,4
-                    100,45
-                    100,50
-                    105,30
-                    110,70
-                    130,50
-                    150,20
-                    50"/>
-                    <text x="15" y="95%" class="graph-villain">villains apprehended 2018</text>
-                    <text x="-32" y="65%" class="graph-label">50</text>
-                    <text x="-32" y="45%" class="graph-label">100</text>
-                    <text x="-32" y="25%" class="graph-label">150</text>
-                    <text x="-32" y="6%" class="graph-label">200</text>
-            </svg>
-        </article>
-        <div class="info-dividing-line"><hr class="graph-divider"><button class="info-expand"><span class="fas fa-caret-up"></span></button><hr class="graph-divider">
+          <span class="graph-label" id="circle-graph-label">bat stats</span>
+        </section>
+      <section class="bar-graph">
+        <svg width="100%" height="200">
+          <g transform="translate(20,40)">
+            <g class="x axis" transform="translate(0,135)">
+              <g class="tick" transform="translate(20,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">JAN</text>
+              </g>
+              <g class="tick" transform="translate(45,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">FEB</text>
+              </g>
+              <g class="tick" transform="translate(70,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">MAR</text>
+              </g>
+              <g class="tick" transform="translate(95,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">APR</text>
+              </g>
+               <g class="tick" transform="translate(120,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">MAY</text>
+              </g>
+               <g class="tick" transform="translate(145,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">JUN</text>
+              </g>
+               <g class="tick" transform="translate(170,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">JUL</text>
+              </g>
+               <g class="tick" transform="translate(195,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">AUG</text>
+              </g>
+               <g class="tick" transform="translate(220,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">SEP</text>
+              </g>
+               <g class="tick" transform="translate(245,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">OCT</text>
+              </g>
+               <g class="tick" transform="translate(270,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">NOV</text>
+              </g>
+               <g class="tick" transform="translate(295,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+                <text dy=".71em" y="9" x="0" style="text-anchor: middle;">DEC</text>
+              </g>
+            <path class="domain" d="Mo,6V0H900V6"></path>
+            </g>
+          <g class="y axis">
+            <g class="tick" transform="translate(0,115)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">20</text>
+            </g>
+            <g class="tick" transform="translate(0,85)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">40</text>
+            </g>
+            <g class="tick" transform="translate(0,55)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">60</text>
+            </g>
+            <g class="tick" transform="translate(0,25)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">80</text>
+            </g>
+            <g class="tick" transform="translate(0,-5)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">100</text>
+            </g>
+            <g class="tick" transform="translate(0,-35)" style="opacity: 1;"><line x2="3" y2="0"></line>
+              <text dy=".32em" x="-2" y="0" style="text-anchor: end;">120</text>
+            </g>
+          <rect class="bar jan" x="10" width="20" y="50" height="89"></rect>
+          <rect class="bar feb" x="35" width="20" y="-31" height="170"></rect>
+          <rect class="bar mar" x="60" width="20" y="39" height="100"></rect>
+          <rect class="bar apr" x="85" width="20" y="19" height="120"></rect>
+          <rect class="bar may" x="110" width="20" y="-46" height="185"></rect>
+          <rect class="bar jun" x="135" width="20" y="19" height="120"></rect>
+          <rect class="bar jul" x="160" width="20" y="49" height="90"></rect>
+          <rect class="bar aug" x="185" width="20" y="21" height="118"></rect>
+          <rect class="bar sep" x="210" width="20" y="-6" height="145"></rect>
+          <rect class="bar oct" x="235" width="20" y="42" height="97"></rect>
+          <rect class="bar nov" x="260" width="20" y="59" height="80"></rect>
+          <rect class="bar dec" x="285" width="20" y="34" height="105"></rect>
+        </svg>
+        <span class="graph-label" id="bar-graph-label">VILLAINS CAUGHT THIS YEAR</span>
+      </section>
+    </article>
+      <div class="info-dividing-line"><hr class="graph-divider"><button class="info-expand"><span class="fas fa-caret-up"></span></button><hr class="graph-divider">
         </div>
         <table class="table">
           <th colspan="2" id="table-header"><h5 class="table-title">Job Description<span class="table-title-edit"><i class="fas fa-pencil-alt"></i>EDIT</span></h5></th>
@@ -155,21 +209,21 @@
           <h4 class="social-heading"><i class="fas fa-globe-americas social-pane-icon"></i>Link to the Batman</h4>
               <p class="social-p">Now, our operation is small but there is a lot of potential for aggressive expansion. So which of you fine gentlemen would like to join our team?</p>
               <span class="social-link-input">
-              <input type="text" name="contact">
+              <input type="text" name="contact" placeholder="https://www.dccomics.com/characters/batman">
               <button class="copy-btn">COPY</button>
             </span>
             <hr class="social-divider">
           <h4 class="social-heading"><i class="far fa-window-restore social-pane-icon"></i>Use the Batman Widget</h4>
               <p class="social-p">Know how I got these scars? My father was... a drinker, and a fiend. And one night...</p>
               <span class="social-link-input">
-              <input type="text" name="contact">
+              <input type="text" name="contact" placeholder="https://www.dccomics.com/characters/batman">
               <button class="copy-btn">COPY</button>
             </span>
             <hr class="social-divider">
           <h4 class="social-heading"><i class="far fa-paper-plane social-pane-icon"></i>Contact the Batman</h4>
               <p class="social-p">I believe whatever doesn't kill you simply makes you... stranger.</p>
             <span class="social-link-input">
-              <input type="text" name="contact">
+              <input type="text" name="contact" placeholder="https://www.dccomics.com/characters/batman">
                <button class="copy-btn">COPY</button>
             </span>
       </section>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100%" height="80%">
+  <g transform="translate(30,80)">
+    <g class="x axis" transform="translate(0,140)">
+      <g class="tick" transform="translate(25.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+        <text dy=".71em" y="9" x="0" style="text-anchor: middle;">JAN</text>
+      </g>
+      <g class="tick" transform="translate(59.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+        <text dy=".71em" y="9" x="0" style="text-anchor: middle;">FEB</text>
+      </g>
+      <g class="tick" transform="translate(95.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+        <text dy=".71em" y="9" x="0" style="text-anchor: middle;">MAR</text>
+      </g>
+      <g class="tick" transform="translate(95.5,0)" style="opacity: 1;"><line y2="6" x2="0"></line>
+        <text dy=".71em" y="9" x="0" style="text-anchor: middle;">MAR</text>
+      </g>
+    <path class="domain" d="Mo,6V0H900V6"></path>
+  </g>
+  <g class="y axis">
+    <g class="tick" transform="translate(0,140)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+        <text dy=".32em" x="-9" y="0" style="text-anchor: end;">0</text>
+    </g>
+    <g class="tick" transform="translate(0,100)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+      <text dy=".32em" x="-9" y="0" style="text-anchor: end;">20</text>
+    </g>
+    <g class="tick" transform="translate(0,60)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+      <text dy=".32em" x="-9" y="0" style="text-anchor: end;">40</text>
+    </g>
+    <g class="tick" transform="translate(0,20)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+      <text dy=".32em" x="-9" y="0" style="text-anchor: end;">60</text>
+    </g>
+    <g class="tick" transform="translate(0,-20)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+      <text dy=".32em" x="-9" y="0" style="text-anchor: end;">80</text>
+    </g>
+    <g class="tick" transform="translate(0,-60)" style="opacity: 1;"><line x2="-6" y2="0"></line>
+      <text dy=".32em" x="-9" y="0" style="text-anchor: end;">100</text>
+    </g>
+  <rect class="bar" x="10" width="20" y="50" height="89"></rect>
+  <rect class="bar" x="35" width="20" y="-29" height="168"></rect>
+  <rect class="bar" x="60" width="20" y="39" height="100"></rect>
+  <rect class="bar" x="85" width="20" y="19" height="120"></rect>
+  <rect class="bar" x="110" width="20" y="49" height="90"></rect>
+  <rect class="bar" x="135" width="20" y="49" height="90"></rect>
+  <rect class="bar" x="160" width="20" y="49" height="90"></rect>
+  <rect class="bar" x="185" width="20" y="49" height="90"></rect>
+</svg>
