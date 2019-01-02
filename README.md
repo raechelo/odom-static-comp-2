@@ -1,5 +1,5 @@
 # Static Comp 2 Was...
--a composition of a website given to challenge the dev with multiple aspects of what we have learned so far this mod, including but not limited to: grid, flex, positioning, tables, responsive layouts, media queries, animations, images, alignment, design, and typography.
+a composition of a website given to challenge the dev with multiple aspects of what we have learned so far this mod, including but not limited to: grid, flex, positioning, tables, responsive layouts, media queries, animations, images, alignment, design, and typography.
 
 The comp given:
 
